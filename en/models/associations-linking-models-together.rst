@@ -933,7 +933,7 @@ LeadersController::
             )
         );
         
-        // If we need keep this association after model reset
+        // If we need to keep this association after model reset
         // we will pass a second boolean parameter like this:
         $this->Leader->bindModel(
             array('hasMany' => array(
